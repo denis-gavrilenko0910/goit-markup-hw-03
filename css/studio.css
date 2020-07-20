@@ -1,0 +1,96 @@
+/* Герой */
+
+.hero-text {
+  color: var(--hero-text-color);
+  text-transform: uppercase;
+  background-image: url(../img/header-img/header.png);
+}
+
+/* Заголовки */
+
+.heading {
+  font-weight: bold;
+  font-size: 36px;
+
+  text-align: center;
+}
+
+/* Особенности */
+
+.features-pic {
+  margin-top: 119px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.features-title {
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.features-text {
+  color: var(--secondary-text-color);
+  width: 270px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* Чем мы занимаемся */
+.work {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.work-pic {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 215px;
+}
+
+.work-text {
+  color: var(--third-text-color);
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 37px;
+  justify-content: space-around;
+}
+
+/* Наша команда */
+
+.names {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+.position {
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--third-text-color);
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Фото команды */
+
+.team {
+  display: flex;
+
+  padding: 0px 215px;
+}
+
+.socials {
+  display: flex;
+}
+
+/* Постоянные клиенты */
+
+.clients-links {
+  display: flex;
+}
