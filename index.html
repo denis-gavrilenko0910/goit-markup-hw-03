@@ -24,47 +24,53 @@
     <!--Шапка сайта-->
 
     <header class="header">
-      <nav>
-        <a href="index.html" class="logo">
-          <span class="logo-web">Web </span>Studio
-        </a>
-
-        <ul class="site-nav">
-          <li>
-            <a class="current" href="index.html">Студия</a>
-          </li>
-          <li>
-            <a href="./portfolio.html">Портфолио</a>
-          </li>
-          <li>
-            <a href="#contacts">Контакты</a>
-          </li>
-        </ul>
-        <ul class="mail-tel">
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav>
+          <a href="index.html" class="logo">
+            <span class="logo-web">Web </span>Studio
+          </a>
+          <ul class="site-nav">
+            <li class="list">
+              <a class="current" href="index.html">Студия</a>
+            </li>
+            <li class="list">
+              <a href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="list">
+              <a href="#contacts">Контакты</a>
+            </li>
+          </ul>
+          <ul class="mail-tel">
+            <li class="list">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="list">
+              <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!--герой-->
 
-    <section class="hero">
-      <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
-      <button class="button">Заказать услугу</button>
+    <section class="section-hero">
+      <div class="container">
+        <h1 class="hero-text">
+          Эффективные решения <br />
+          для вашего бизнеса
+        </h1>
+        <button class="button">Заказать услугу</button>
+      </div>
     </section>
 
     <main>
       <!-- Особенности -->
 
-      <div class="features-container">
-        <section class="features">
+      <section class="section">
+        <div class="container">
           <ul class="features-pic">
-            <li>
+            <li class="list">
               <img src="./img/svg/features/antenna.svg" alt="антена" />
               <h2 class="features-title">
                 Внимание к деталям
@@ -75,7 +81,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="list">
               <img src="./img/svg/features/clock.svg" alt="часы" />
               <h2 class="features-title">
                 Пунктуальность
@@ -86,7 +92,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="list">
               <img src="./img/svg/features/diagram.svg" alt="диаграмма" />
               <h2 class="features-title">
                 Планирование
@@ -97,7 +103,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="list">
               <img src="./img/svg/features/astronaut.svg" alt="астронавт" />
               <h2 class="features-title">
                 Современные технологии
@@ -108,15 +114,16 @@
               </p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
 
-      <!--Чем мы занимаемся-->
-      <div class="work-container">
-        <section class="work">
+      <!-- Чем мы занимаемся -->
+
+      <section class="section">
+        <div class="container">
           <h3 class="heading">Чем мы занимаемся</h3>
           <ul class="work-pic">
-            <li>
+            <li class="list">
               <img
                 src="./img/what-we-do/imgLT.jpg"
                 alt="на фото ноутбук"
@@ -124,7 +131,7 @@
               />
               <p class="work-text">Десктопные приложения</p>
             </li>
-            <li>
+            <li class="list">
               <img
                 src="./img/what-we-do/imgMob.jpg"
                 alt="картинка мобильного телефона"
@@ -132,7 +139,7 @@
               />
               <p class="work-text">Мобильные приложения</p>
             </li>
-            <li>
+            <li class="list">
               <img
                 src="./img/what-we-do/imgMac.jpg"
                 alt="картинка компьютера от компании Эпл"
@@ -141,17 +148,18 @@
               <p class="work-text">Дизайнерские решения</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!-- Наша команда -->
-      <div class="team-container">
-        <section class="our-team">
+
+      <section class="section">
+        <div class="container">
           <h3 class="heading">Наша команда</h3>
           <ul class="team">
             <!-- фото команды -->
 
-            <li>
+            <li class="list">
               <img
                 src="./img/team/imgfirst.jpg"
                 alt="На фото Николай Кучеренко, дизайнер продукта"
@@ -162,7 +170,7 @@
                 Product Designer
               </p>
               <ul class="socials">
-                <li>
+                <li class="list">
                   <a href="https://www.instagram.com/">
                     <img
                       src="./img/svg/social_links/instagram.svg"
@@ -170,7 +178,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="list">
                   <a href="https://twitter.com/">
                     <img
                       src="./img/svg/social_links/twitter.svg"
@@ -178,7 +186,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="list">
                   <a href="https://www.facebook.com/">
                     <img
                       src="./img/svg/social_links/facebook.svg"
@@ -186,7 +194,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="list">
                   <a href="https://www.linkedin.com/">
                     <img
                       src="./img/svg/social_links/linkedin.svg"
@@ -197,7 +205,7 @@
               </ul>
             </li>
 
-            <li>
+            <li class="list">
               <img
                 src="./img/team/imgsecond.jpg"
                 alt="На фото Ольга Иванова, веб разработчик"
@@ -208,7 +216,7 @@
                 Frontend Developer
               </p>
               <ul class="socials">
-                <li>
+                <li class="list">
                   <a href="https://www.instagram.com/">
                     <img
                       src="./img/svg/social_links/instagram.svg"
@@ -216,7 +224,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="list">
                   <a href="https://twitter.com/">
                     <img
                       src="./img/svg/social_links/twitter.svg"
@@ -224,7 +232,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="list">
                   <a href="https://www.facebook.com/">
                     <img
                       src="./img/svg/social_links/facebook.svg"
@@ -232,7 +240,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="list">
                   <a href="https://www.linkedin.com/">
                     <img
                       src="./img/svg/social_links/linkedin.svg"
@@ -243,7 +251,7 @@
               </ul>
             </li>
 
-            <li>
+            <li class="list">
               <img
                 src="./img/team/imgthird.jpg"
                 alt="На фото Андрей Шевченко, маркетолог"
@@ -254,7 +262,7 @@
                 Marketing
               </p>
               <ul class="socials">
-                <li>
+                <li class="list">
                   <a href="https://www.instagram.com/">
                     <img
                       src="./img/svg/social_links/instagram.svg"
@@ -262,7 +270,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="list">
                   <a href="https://twitter.com/">
                     <img
                       src="./img/svg/social_links/twitter.svg"
@@ -270,7 +278,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="list">
                   <a href="https://www.facebook.com/">
                     <img
                       src="./img/svg/social_links/facebook.svg"
@@ -278,7 +286,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="list">
                   <a href="https://www.linkedin.com/">
                     <img
                       src="./img/svg/social_links/linkedin.svg"
@@ -289,7 +297,7 @@
               </ul>
             </li>
 
-            <li>
+            <li class="list">
               <img
                 src="./img/team/imgfourth.jpg"
                 alt="На фото Иван Николаев, дизайнер"
@@ -300,7 +308,7 @@
                 UI Designer
               </p>
               <ul class="socials">
-                <li>
+                <li class="list">
                   <a href="https://www.instagram.com/">
                     <img
                       src="./img/svg/social_links/instagram.svg"
@@ -308,7 +316,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="list">
                   <a href="https://twitter.com/">
                     <img
                       src="./img/svg/social_links/twitter.svg"
@@ -316,7 +324,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="list">
                   <a href="https://www.facebook.com/">
                     <img
                       src="./img/svg/social_links/facebook.svg"
@@ -324,7 +332,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="list">
                   <a href="https://www.linkedin.com/">
                     <img
                       src="./img/svg/social_links/linkedin.svg"
@@ -335,15 +343,16 @@
               </ul>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!-- Постоянные клиенты -->
-      <div class="clients-container">
-        <section class="clients">
+
+      <section class="section">
+        <div class="container">
           <h3 class="heading">Постоянные клиенты</h3>
           <ul class="clients-links">
-            <li>
+            <li class="list">
               <a href="">
                 <img
                   src="./img/svg/clients/a-client.svg"
@@ -351,7 +360,7 @@
                 />
               </a>
             </li>
-            <li>
+            <li class="list">
               <a href="">
                 <img
                   src="./img/svg/clients/b-client.svg"
@@ -359,7 +368,7 @@
                 />
               </a>
             </li>
-            <li>
+            <li class="list">
               <a href="">
                 <img
                   src="./img/svg/clients/c-client.svg"
@@ -367,7 +376,7 @@
                 />
               </a>
             </li>
-            <li>
+            <li class="list">
               <a href="">
                 <img
                   src="./img/svg/clients/d-client.svg"
@@ -375,7 +384,7 @@
                 />
               </a>
             </li>
-            <li>
+            <li class="list">
               <a href="">
                 <img
                   src="./img/svg/clients/e-client.svg"
@@ -383,7 +392,7 @@
                 />
               </a>
             </li>
-            <li>
+            <li class="list">
               <a href="">
                 <img
                   src="./img/svg/clients/f-client.svg"
@@ -392,20 +401,21 @@
               </a>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <!--Подвал-->
-    <div class="footer-container">
-      <footer class="footer">
+
+    <footer class="footer">
+      <div class="container">
         <address class="address-info" id="contacts">
-          <a href="./index.html" class="logo">
-            <p>
+          <div class="logo-container">
+            <a href="./index.html" class="logo">
               <span class="web-title">Web </span>
               <span class="studio-title">Studio</span>
-            </p>
-          </a>
+            </a>
+          </div>
           <div class="address-items">
             г. Киев, <br />
             пр-т Леси Украинки, 26 <br />
@@ -420,10 +430,10 @@
           >
         </address>
         <!--Блок с соц сетями-->
-        <div>
+        <div class="socials-container">
           <b class="bold-text">присоединяйтесь</b>
           <ul>
-            <li>
+            <li class="list">
               <a href="https://www.instagram.com/">
                 <img
                   src="./img/svg/social_links/instagram.svg"
@@ -431,17 +441,17 @@
                 />
               </a>
             </li>
-            <li>
+            <li class="list">
               <a href="https://twitter.com/">
                 <img src="./img/svg/social_links/twitter.svg" alt="твитер" />
               </a>
             </li>
-            <li>
+            <li class="list">
               <a href="https://www.facebook.com/">
                 <img src="./img/svg/social_links/facebook.svg" alt="фейсбук" />
               </a>
             </li>
-            <li>
+            <li class="list">
               <a href="https://www.linkedin.com/">
                 <img
                   src="./img/svg/social_links/linkedin.svg"
@@ -456,9 +466,9 @@
           <b class="bold-text">Подпишитесь на рассылку</b>
           <input type="email" placeholder="E-mail" />
           <input class="button" type="button" value="Подписаться" />
-          <img src="./img/svg/icon-send.svg" />
+          <img src="./img/svg/icon-send.svg" alt="иконка подписки" />
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
