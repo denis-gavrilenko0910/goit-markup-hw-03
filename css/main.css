@@ -14,12 +14,13 @@ ul {
 }
 /* Шапка сайта */
 .container {
-  max-width: 1170px;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 .section {
-  display: flex;
   padding-bottom: 94px;
 }
 
@@ -47,6 +48,11 @@ body {
 
 /* Шапка сайта */
 
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -60,8 +66,7 @@ body {
 }
 .site-nav {
   display: flex;
-  padding: 0px;
-  margin: 0px;
+  margin-right: auto;
 }
 .site-nav .list:not(:last-child) {
   margin-right: 50px;
@@ -85,7 +90,11 @@ body {
 .site-nav .current {
   color: var(--accent-color);
 }
+.mail-tel .list:not(:last-child) {
+  margin-right: 30px;
+}
 .mail-tel {
+  display: flex;
   margin: 0px;
   padding: 0px;
 }
@@ -96,6 +105,8 @@ body {
 .mail-tel a:focus {
   color: var(--mail-tel-hover-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header {
 }
 
 /* Акцентные кнопки */
