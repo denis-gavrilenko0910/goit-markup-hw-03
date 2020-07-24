@@ -160,13 +160,7 @@ body {
 .footer-mail-tel {
   color: var(--footer-contacts-color);
 }
-.socials-container {
-  margin-top: 72px;
-  margin-bottom: 100px;
-  margin-left: 69px;
 
-  margin-right: 94px;
-}
 .bold-text {
   color: var(--third-text-color);
   text-transform: uppercase;
