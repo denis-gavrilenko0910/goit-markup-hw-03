@@ -11,16 +11,27 @@
   --primary-button-color: #2196f3;
   --radio-button-backgroun-color: #f5f4fa;
 }
+.flexbox-list {
+  list-style: none;
+}
 
 .hiden {
   font-size: 0px;
 }
 
 /* Основной контент */
+.main-section {
+  padding-bottom: 93px;
+}
 
 .radio-buttons {
   display: flex;
+  margin: 0px;
+  margin-bottom: 34px;
+
+  padding: 0px;
 }
+
 .radio-buttons .list:not(:last-child) {
   margin-right: 8px;
 }
@@ -35,10 +46,16 @@
   line-height: 26px;
   color: var(--primary-text-color);
 }
-.our-projects a {
+.flexbox-projects a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   color: var(--primary-text-color);
+}
+.flexbox-projects {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
 }

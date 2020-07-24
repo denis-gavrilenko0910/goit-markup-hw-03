@@ -28,6 +28,12 @@
 
 /* Особенности */
 
+.features {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
 .features-title {
   margin-top: 0px;
 }
@@ -54,6 +60,9 @@
 }
 
 /* Чем мы занимаемся */
+.work-examples {
+  display: flex;
+}
 
 .work-text {
   color: var(--third-text-color);
@@ -64,6 +73,9 @@
 }
 
 /* Наша команда */
+.team {
+  display: flex;
+}
 
 .names {
   font-size: 16px;
@@ -73,7 +85,7 @@
 .position {
   font-weight: normal;
   font-size: 16px;
-  color: var(--third-text-color);
+  color: var(--secondary-text-color);
 }
 
 /* Фото команды */
