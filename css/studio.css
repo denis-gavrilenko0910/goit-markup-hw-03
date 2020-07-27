@@ -19,8 +19,6 @@
 /* Заголовки */
 
 .heading {
-  font-weight: bold;
-  font-size: 36px;
   margin-top: 0px;
   margin-bottom: 50px;
   padding: 0px;
@@ -31,22 +29,13 @@
 .features {
   margin: 0px;
   padding: 0px;
-  display: flex;
-}
-
-.features-title {
-  margin-top: 0px;
 }
 .features-title {
   margin-top: 0px;
   margin-bottom: 10px;
   padding: 0px;
   background-color: #ee22ee;
-}
 
-/* Особенности */
-
-.features-title {
   color: var(--primary-text-color);
   font-weight: bold;
   font-size: 14px;
@@ -76,7 +65,6 @@
 .team {
   display: flex;
 }
-
 .names {
   font-size: 16px;
   margin-top: 0px;

@@ -17,9 +17,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-.section {
-  padding: 94px 0px;
-}
 
 /******************************************/
 
@@ -27,20 +24,6 @@ body {
   background-color: var(--main-background-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
-}
-
-:root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --third-text-color: #ffffff;
-  --accent-color: #2196f3;
-  --mail-tel-hover-color: #2196f3;
-  --hover-color: #188ce8;
-  --hero-text-color: #ffffff;
-  --main-background-color: #ffffff;
-  --footer-background-color: #2f303a;
-  --footer-contacts-color: rgba(255, 255, 255, 0.6);
-  --primary-button-color: #2196f3;
 }
 
 /* Шапка сайта */
