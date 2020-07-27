@@ -56,6 +56,14 @@
 .flexbox-projects {
   display: flex;
   flex-wrap: wrap;
+
   padding: 0px;
   margin: 0px;
+}
+.flexbox-projects .list {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.flexbox-projects .list:nth-child(3n) {
+  margin-right: 0px;
 }

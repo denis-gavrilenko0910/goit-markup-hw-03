@@ -1,6 +1,20 @@
 * {
   text-decoration: none;
 }
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --third-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --mail-tel-hover-color: #2196f3;
+  --hover-color: #188ce8;
+  --hero-text-color: #ffffff;
+  --main-background-color: #ffffff;
+  --footer-background-color: #2f303a;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --primary-button-color: #2196f3;
+  --border-color: #afb1b8;
+}
 
 .list {
   list-style: none;
@@ -16,6 +30,9 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+.section {
+  margin-bottom: 94px;
 }
 
 /******************************************/
@@ -118,6 +135,9 @@ body {
 /* СТИЛИ ФУТЕРА */
 
 /* Адрес и лого */
+footer {
+  display: flex;
+}
 
 .footer-logo {
   font-family: 'Raleway', sans-serif;
