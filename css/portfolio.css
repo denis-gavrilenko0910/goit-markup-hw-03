@@ -30,13 +30,14 @@
 .radio-buttons .items {
   display: block;
 
-  margin-right: 8px;
+  margin-left: 8px;
   margin-bottom: 50px;
   padding: 6px 22px;
   background: var(--radio-buttons-backgroun-color);
   border-radius: 4px;
   color: var(--primary-text-color);
 }
+
 .radio-buttons .items:hover {
   background-color: var(--primary-button-color);
   color: var(--third-text-color);
@@ -80,6 +81,9 @@ h2 {
   padding: 0px;
 
   color: var(--primary-text-color);
+}
+.portfolio-pic {
+  display: block;
 }
 .flexbox-projects {
   display: flex;

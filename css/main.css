@@ -25,13 +25,16 @@
 /* Шапка сайта */
 .container {
   width: 1200px;
+
   padding-left: 15px;
   padding-right: 15px;
+
   margin-left: auto;
   margin-right: auto;
 }
 .section {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .section:nth-child(3) {
   background-color: var(--secondary-background-color);
@@ -50,6 +53,12 @@ body {
 .navigation {
   display: flex;
   align-items: center;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .logo {
